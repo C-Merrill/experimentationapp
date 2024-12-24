@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import { heroExperimentType } from "./heroVariantType";
+
+export const schemaTypes = [heroExperimentType]
