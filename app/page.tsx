@@ -6,6 +6,8 @@ import { DisableDraftMode } from "@/components/DisableDraftMode";
 import { VisualEditing } from "next-sanity";
 import { draftMode } from "next/headers";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const visitorId = Math.ceil(Math.random()*1000000)
   const heroVariants: HeroExperiment[] = (await sanityFetch({query: heroExperimentQuery})).data;
