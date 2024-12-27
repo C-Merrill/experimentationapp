@@ -32,3 +32,5 @@
 # Dotenv and similar local-only files
 *.env
 *.local
+.vercel
+.env*.local
