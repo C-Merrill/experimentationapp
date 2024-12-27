@@ -10,6 +10,7 @@ export default async function Home() {
   const visitorId = Math.ceil(Math.random()*1000000)
   const heroVariants: HeroExperiment[] = (await sanityFetch({query: heroExperimentQuery})).data;
   const heroVariant = selectVariant(heroVariants, visitorId)
+  console.log(visitorId);
   
   return (
     <div className="px-6 pt-14 lg:px-8 bg-gray-900 text-white min-h-screen bg-black">
