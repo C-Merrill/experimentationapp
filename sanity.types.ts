@@ -120,7 +120,7 @@ export type Geopoint = {
 
 export type Slug = {
   _type: "slug";
-  current?: string;
+  current: string;
   source?: string;
 };
 
@@ -137,10 +137,10 @@ export type HeroExperiment = {
   _createdAt: string;
   _updatedAt: string;
   _rev: string;
-  variantId?: string;
+  variantId: string;
   titleText?: string;
   subtitleText?: string;
-  weight?: number;
+  weight: number;
 };
 
 export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityImageAsset | SanityImageMetadata | Geopoint | Slug | SanityAssetSourceData | HeroExperiment;
