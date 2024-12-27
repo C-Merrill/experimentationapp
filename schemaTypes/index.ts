@@ -1,3 +1,3 @@
-import { heroExperimentType } from "./heroVariantType";
+import heroExperimentType from "./heroExperimentType";
 
 export const schemaTypes = [heroExperimentType]
