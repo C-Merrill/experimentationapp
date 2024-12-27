@@ -727,89 +727,31 @@
           "type": "string"
         }
       },
-      "id": {
+      "variantId": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
         "optional": true
       },
-      "startDate": {
+      "titleText": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
         "optional": true
       },
-      "endDate": {
+      "subtitleText": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
         "optional": true
       },
-      "trafficThrottle": {
+      "weight": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
-        },
-        "optional": true
-      },
-      "arms": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "array",
-          "of": {
-            "type": "object",
-            "attributes": {
-              "id": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "string"
-                },
-                "optional": true
-              },
-              "titleText": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "string"
-                },
-                "optional": true
-              },
-              "subtitleText": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "string"
-                },
-                "optional": true
-              },
-              "weight": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "number"
-                },
-                "optional": true
-              },
-              "_type": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "string",
-                  "value": "arm"
-                }
-              }
-            },
-            "rest": {
-              "type": "object",
-              "attributes": {
-                "_key": {
-                  "type": "objectAttribute",
-                  "value": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          }
         },
         "optional": true
       }
